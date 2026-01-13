@@ -1,1 +1,50 @@
+# APPLE STORES AND LOCATIONS DATA
+# -- ETL job: Creating the script that automatically extracts data from PDF files, converts it into CSV.
+# -- The following script is an integral part of automated ETL. It watches the data folder.
+# -- Whenever a new PDF is added, it automatically extracts tables, converts them into a CSV, and saves all the tables without manual intervention.
 
+import time
+from pathlib import Path
+import pdfplumber
+import pandas as pd 
+from watchdog.observers import Observer    # setting up a "watcher" that monitors file system changes
+from watchdog.events import FileSystemEventHandler    # what happens when files are created/modified/deleted
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+data_dir = BASE_DIR / "data"
+
+# Event handling
+class PDFHandler(FileSystemEventHandler):
+    def on_created(self, event):
+        if event.src_path.endswith(".pdf"):
+            pdf_path = Path(event.src_path)
+            print(f"New PDF detected: {pdf_path}")
+            # Processing PDF files
+            all_data = []
+            with pdfplumber.open(pdf_path) as pdf:
+                for page in pdf.pages:
+                    table = page.extract_table()
+                    if table:
+                        df_page = pd.DataFrame(table[1:], columns=table[0])
+                        all_data.append(df_page)
+            # CSV creation
+            if all_data:
+                df_stores = pd.concat(all_data, ignore_index=True)
+                csv_path = data_dir / (pdf_path.stem + ".csv")
+                df_stores.to_csv(csv_path, index=False)
+                print(f"CSV file created at: {csv_path}")
+
+# Wather Setup
+if __name__ == "__main__":
+    event_handler = PDFHandler()
+    observer = Observer()
+    observer.schedule(event_handler, str(data_dir), recursive=False)
+    observer.start()
+    print(f"Watching folder: {data_dir}")
+    # This keeps Loop alive
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
