@@ -1,7 +1,10 @@
 # 💻⚙️ SQL Data Warehouse & Analytics Project
 
 You are welcome to explore the **Data Warehouse & Analytics Project🚀**.  
-If this work resonates with you and you’d like to discuss potential collaborations or future projects, I’d be glad to connect.
+
+This project is part of my professional portfolio and demonstrates **industry‑recognized best practices in data analytics, supported by strong data engineering expertise**. It highlights my ability to deliver actionable insights while designing scalable architectures and ETL pipelines that ensure data quality and reliability.  
+
+As a **Senior Statistician**, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting at the Serbian National Statistical Institute. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle.  
 
 ---
 
@@ -11,6 +14,7 @@ This project demonstrates the design and implementation of a modern **SQL Server
 ---
 
 ## 📋 Project Requirements
+### 🏗️ Building the Data Warehouse
 **Objective 1:** Build a modern SQL Server data warehouse to consolidate Apple sales data for analytical reporting.  
 
 **Technical Details:**
@@ -20,7 +24,7 @@ This project demonstrates the design and implementation of a modern **SQL Server
 - Restrict scope to the most recent dataset (2020 onwards);
 - Deliver comprehensive ETL process documentation to support analytics and stakeholder use.
 
-## 📊 Analytics & Reporting
+### 📊 Analytics & Reporting
 **Objective 2:** SQL‑supported analytics to deliver business insights that empower stakeholders with **key business metrics** for strategic decision‑making.
 
 **Technical Details:**
@@ -53,17 +57,23 @@ The solution implemented in this portfolio project follows the **Medallion Archi
 - **Power BI** → Visualization (optional)  
 - **GitHub** → Version control and collaboration  
 
----
-
-
-## ✅ Portfolio Note
-This project is part of my professional portfolio and demonstrates **industry‑recognized best practices in data analytics, supported by strong data engineering expertise**. It highlights my ability to deliver actionable insights while designing scalable architectures and ETL pipelines that ensure data quality and reliability.  
-
-As a **Senior Statistician**, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting at the Serbian National Statistical Institute. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle.  
- 
+--- 
 
 ### 🔑 Highlights
 - **Data Analytics** → Skilled in SQL, reporting, and translating complex data into business insights  
 - **Data Engineering Knowledge** → Hands‑on experience with ETL pipelines, data modeling, and warehouse design  
 - **Official Statistics Expertise** → Deep background in survey systems, national accounts, and forecasting  
-- **Collaborative Approach** → Worked closely with engineers and developers to ensure scalable, reliable solutions  
+- **Collaborative Approach** → Worked closely with engineers and developers to ensure scalable, reliable solutions
+
+---
+
+## 📬 Contact
+
+If you enjoyed exploring this project and would like to collaborate on future initiatives, feel free to connect with me:
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/milena-b-stevovic)  
+- 🐙 [GitHub](https://github.com/milena-b-stevovic)  
+- 📧 Email: drstevovic@gmail.com  
+
+I’d be glad to discuss ideas, share insights, or work together on impactful data projects.
+
