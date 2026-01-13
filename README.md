@@ -1,15 +1,17 @@
 # 💻⚙️ SQL Data Warehouse & Analytics Project
 
-You are welcome to explore the **Data Warehouse & Analytics Project🚀**.  
+## Welcome 👋  
 
-This project is part of my professional portfolio and demonstrates **industry‑recognized best practices in data analytics, supported by strong data engineering expertise**. It highlights my ability to deliver actionable insights while designing scalable architectures and ETL pipelines that ensure data quality and reliability.  
+This project is part of my professional portfolio and demonstrates industry‑recognized best practices in **ETL pipelines, data modeling, and analytics**, showing how raw data can be transformed into business‑ready insights.
 
 As a **Senior Statistician**, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting at the Serbian National Statistical Institute. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle.  
 
 ---
 
 ## 🌐 Project Overview
-This project demonstrates the design and implementation of a modern **SQL Server data warehouse**. It highlights industry best practices in **ETL pipelines, data modeling, and analytics**, showing how raw data can be transformed into business‑ready insights.
+The SQL Data Warehouse & Analytics Project demonstrates the design and implementation of a modern **SQL Server data warehouse**.
+This project showcases how raw sales data can be transformed into a reliable, analytics‑ready structure through robust ETL pipelines, data cleansing, and integration. 
+By combining structured data modeling with SQL‑driven analytics, the solution highlights best practices in reporting, KPI development, and dashboard creation, ultimately supporting informed decision‑making and strategic growth.
 
 ---
 
@@ -34,19 +36,6 @@ This project demonstrates the design and implementation of a modern **SQL Server
 - Ensure compatibility with the BI tools, e.g. Power BI for visualization and dashboarding;
 - Provide metadata to guide analysts in query usage and interpretation.
 
-## 📂 Documentation
-For detailed requirements and steps, see:  
-`docs/requirements.md`
-
----
-
-## 🏗️ Data Architecture
-The solution implemented in this portfolio project follows the **Medallion Architecture**:
-
-- **Bronze Layer** → Raw data ingested from CSV and PDF files  
-- **Silver Layer** → Cleansed, standardized, and normalized data
-- **Gold Layer** → Business‑ready star schema optimized for reporting  
-
 ---
 
 ## 🔧 Tech Stack
@@ -54,7 +43,7 @@ The solution implemented in this portfolio project follows the **Medallion Archi
 - **SQL Server Management Studio (SSMS)** → Database management GUI 
 - **Python** → ETL automation
 - **Draw.io** → Architecture diagrams  
-- **Power BI** → Visualization (optional)  
+- **Power BI** → Data visualization  
 - **GitHub** → Version control and collaboration  
 
 --- 
