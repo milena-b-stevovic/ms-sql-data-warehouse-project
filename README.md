@@ -2,16 +2,15 @@
 
 ## Welcome 👋  
 
-This project is part of my professional portfolio and demonstrates industry‑recognized best practices in **ETL pipelines, data modeling, and analytics**, showing how raw data can be transformed into business‑ready insights.
+This project is part of my professional portfolio and demonstrates how to build a scalable **ETL data pipeline, and analytical data model**, to turn raw operational data into actionable business intelligence. It mirrors real-world scenarios where clean, reliable data is the foundation for decision-making in sales, inventory, and customer analysis.
 
-As a **Senior Statistician**, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting at the Serbian National Statistical Institute. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle.  
+In this repository, you will find:
+- End-to-End Workflow: From raw source tables to a dimensional data warehouse (Star Schema), and analytics‑ready structure.
+- Practical SQL Expertise: Leveraging of complex joins, window functions, and performance-optimized queries.
+- Business-Ready Analytics: Examples of queries designed to answer key business performance questions.
 
----
-
-## 🌐 Project Overview
-The SQL Data Warehouse & Analytics Project demonstrates the design and implementation of a modern **SQL Server data warehouse**.
-This project showcases how raw sales data can be transformed into a reliable, analytics‑ready structure through robust ETL pipelines, data cleansing, and integration. 
-By combining structured data modeling with SQL‑driven analytics, the solution highlights best practices in reporting, KPI development, and dashboard creation, ultimately supporting informed decision‑making and strategic growth.
+## My Background & Transition 👤
+As a **Senior Statistician**, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting at the Serbian National Statistical Institute. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle. I am now transitioning my skills to the business sector, aiming to act as the crucial link between data infrastructure and strategic business insight as a Data Analyst.
 
 ---
 
