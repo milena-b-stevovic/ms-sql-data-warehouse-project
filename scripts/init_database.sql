@@ -1,7 +1,8 @@
 /*
 Script Purpose:
 This script creates a new database named 'AppleDW2024' only if the database does not exist.
-It will fail if the database already exists. Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
+It will fail if the database already exists. 
+Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
 */
 
 USE master;
