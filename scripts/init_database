@@ -1,4 +1,4 @@
-
+### **Apple Database Development**
 /*
 =============================================================
 CREATE DATABASE AND SCHEMAS 
@@ -8,9 +8,12 @@ This script creates a new database named 'AppleDW2024' only if the database does
 It will fail if the database already exists. Additionally, the script sets up three schemas within the database: 'bronze', 'silver', and 'gold'.
 */
 
+```sql
 USE master;
 GO
+```
 
+```sql
 -- Create the 'AppleDW2024' database
 IF NOT EXISTS (SELECT 1 FROM sys.databases WHERE name = 'AppleDW2024')
 BEGIN
@@ -23,10 +26,14 @@ BEGIN
     PRINT 'WARNING: Existing data will remain unchanged.';
 END
 GO
+```
 
+```sql
 USE AppleDW2024;
 GO
+```
 
+```sql
 -- Create Schemas (if they don't exist)
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'bronze')
 BEGIN
@@ -36,7 +43,9 @@ END
 ELSE
     PRINT 'Schema already exists: bronze';
 GO
+```
 
+```sql
 -- Create bronze schema if it doesn't exist
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'bronze')
 BEGIN
@@ -46,7 +55,9 @@ END
 ELSE
     PRINT 'Schema already exists: bronze';
 GO
+```
 
+```sql
 -- Create silver schema if it doesn't exist
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'silver')
 BEGIN
@@ -56,7 +67,9 @@ END
 ELSE
     PRINT 'Schema already exists: silver';
 GO
+```
 
+```sql
 -- Create gold schema if it doesn't exist
 IF NOT EXISTS (SELECT 1 FROM sys.schemas WHERE name = 'gold')
 BEGIN
@@ -66,9 +79,12 @@ END
 ELSE
     PRINT 'Schema already exists: gold';
 GO
+```
 
+```sql
 PRINT '';
 PRINT '=============================================================';
 PRINT 'Script completed successfully.';
 PRINT '=============================================================';
 GO
+```
