@@ -1,22 +1,21 @@
-# 💻⚙️ SQL Data Warehouse & Analytics Project
+# 💻⚙️ SQL Data Warehouse Project
 
 ## Welcome 👋  
 
 This project is part of my professional portfolio and demonstrates how to build a scalable **ETL data pipeline, and analytical data model**, to turn raw operational data into actionable business intelligence. It mirrors real-world scenarios where clean, reliable data is the foundation for decision-making in sales, inventory, and customer analysis.
 
-In this repository, you will find:
-- End-to-End Workflow: From raw source tables to a dimensional data warehouse (Star Schema), and analytics‑ready structure.
-- Practical SQL Expertise: Leveraging of complex joins, window functions, and performance-optimized queries.
-- Business-Ready Analytics: Examples of queries designed to answer key business performance questions.
+> **⚠️ Note:** This project focuses on **data warehousing and ETL**. Business analytics, dashboards, and statistical insights will be developed in a separate companion project.
 
 ## My Background & Transition 👤
 As a **Senior Statistician** at the Serbian National Statistical Institute, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting to ensure data integrity and relevance. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle. I am now transitioning my skills to the business sector, aiming to act as the crucial link between data infrastructure and strategic business insight as a Data Analyst.
-
 </br>
 
 # 📋 Project Overview
-### 🏗️ Building the Data Warehouse
-**Objective 1:** Build a modern SQL Server data warehouse that consolidates Apple sales data into single source, ready for analytical reporting and BI.  
+## 🤔💭 Problem statement
+Companies often have sales data spread across modern CRMs, aging inventory systems, and department-specific spreadsheets, making it impossible to get a unified view of performance without weeks of manual work. At the National Statistical Institute, I solved similar challenges with Census mainframes, Access databases, and macroeconomic models with 50+ linked Excel files. In this project, I will apply this **precision at scale** to business data.
+
+## 🎯 Project Objective
+Build a modern SQL Server data warehouse that consolidates Apple sales data into **single source of truth**, ready for analytical reporting and BI.  
 
 **Key Deliverables:**
 - Import data from diverse sources (in this case, CSV and PDF).
@@ -25,15 +24,14 @@ As a **Senior Statistician** at the Serbian National Statistical Institute, I co
 - Scope the model to the most recent dataset (2020 onwards) for focused insights.
 - Deliver clear ETL process documentation to support analytics and stakeholder use.
 
-### 📊 Analytics & Business Intelligence
-**Objective 2:** SQL‑supported analytics to deliver business insights that empower stakeholders with **key business metrics** for strategic decision‑making.
+This project focuses on the **data engineering foundation**—building a production-ready SQL Server data warehouse that consolidates and prepares Apple sales data for analytics. 
+**Government Parallel:** Just as my team at the National Statistical Institute provided **definitive economic data** for national policies, this project provides **definitive sales data** for business strategy.
 
-**Key Deliverables:**
-- Develop production-ready SQL queries, stored procedures, and views to extract and aggregate sales data.
-- Implement core business logic to calculate KPIs such as revenue growth, Average Order Value (AOV), and Warranty Claim Rate.
-- Design analytical views and reporting tables optimized for performance and usability in BI tools.
-- Ensure seamless integration with the BI tools like Power BI for dashboarding.
-- Provide accompanying metadata and definitions to guide accurate analysis and interpretation.
+## 🔬 Key Technical Challenges Solved
+- Heterogeneous Date Formats → Standardized 16-06-2023, 5/7/2021, 1/30/2024 to ISO format
+- Referential Integrity → Implemented validation before dimension loading
+- Performance at Scale → Strategic indexing on date and foreign key columns
+- Data Lineage → Maintained audit trails from bronze to gold layers
 
 ## 🔧 Tech Stack
 - **Database Engine:** Microsoft SQL Server Express
@@ -45,13 +43,6 @@ As a **Senior Statistician** at the Serbian National Statistical Institute, I co
 
 --- 
 
-## 📬 Contact
-
-If you enjoyed exploring this project and would like to collaborate on future initiatives, feel free to connect with me:
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/milena-b-stevovic)  
-- 🐙 [GitHub](https://github.com/milena-b-stevovic)  
-- 📧 Email: drstevovic@gmail.com  
-
-I’d be glad to discuss ideas, share insights, or work together on impactful data projects.
+📞 Let's Connect & Discuss Opportunities:
+<p align="center"> <a href="https://www.linkedin.com/in/milena-b-stevovic"> <img src="https://img.shields.io/badge/VIEW_MY_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> <a href="https://github.com/milena-b-stevovic"> <img src="https://img.shields.io/badge/EXPLORE_MY_PROJECTS-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> <a href="mailto:drstevovic@gmail.com"> <img src="https://img.shields.io/badge/EMAIL_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> </a> </p><p align="center"> <strong>💼 LinkedIn:</strong> <a href="https://www.linkedin.com/in/milena-b-stevovic">linkedin.com/in/milena-b-stevovic</a><br> <strong>🐙 GitHub:</strong> <a href="https://github.com/milena-b-stevovic">github.com/milena-b-stevovic</a><br> <strong>📧 Email:</strong> <a href="mailto:drstevovic@gmail.com">drstevovic@gmail.com</a> </p><p align="center"> <em>I typically respond within 24 hours to discuss:<br> • Full-time remote opportunities • Freelance data projects • Technical collaboration • Data strategy discussions</em> </p>
 
