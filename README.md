@@ -12,6 +12,7 @@ Here, I showcase how to build scalable **ETL pipelines and analytical data model
 As a **Senior Statistician** at the Serbian National Statistical Institute, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting to ensure data integrity and relevance. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle. I am now transitioning my skills to the business sector, aiming to act as the crucial link between data infrastructure and strategic business insight as a Data Analyst.
 
 </br>
+
 # 📋 Project Overview
 
 ## 🤔💭 Problem statement
