@@ -2,12 +2,15 @@
 
 ## Welcome 👋  
 
-This project is part of my professional portfolio and demonstrates how to build a scalable **ETL data pipeline, and analytical data model**, to turn raw operational data into actionable business intelligence. It mirrors real-world scenarios where clean, reliable data is the foundation for decision-making in sales, inventory, and customer analysis.
+This project demonstrates my approach to **end-to-end data solutions**—not just analysis, but building the reliable foundations that make analysis possible. As a Senior Statistician with 17 years in official statistics, I understand that **trustworthy insights require trustworthy data infrastructure**.
+
+Here, I showcase how to build scalable **ETL pipelines and analytical data models** that transform raw operational data into actionable business intelligence. The project mirrors real-world scenarios where clean, reliable data forms the foundation for decision-making in sales, inventory, and customer analysis.
 
 > **⚠️ Note:** This project focuses on **data warehousing and ETL**. Business analytics, dashboards, and statistical insights will be developed in a separate companion project.
 
 ## My Background & Transition 👤
 As a **Senior Statistician** at the Serbian National Statistical Institute, I collaborated daily with data engineers and software developers to design and implement ETL processes across domains such as agricultural statistics, national accounts, and time series forecasting to ensure data integrity and relevance. This experience strengthened my ability to bridge **analytics and engineering**, positioning me as a data analyst who understands the full data lifecycle. I am now transitioning my skills to the business sector, aiming to act as the crucial link between data infrastructure and strategic business insight as a Data Analyst.
+
 </br>
 # 📋 Project Overview
 
