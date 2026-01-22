@@ -2,7 +2,7 @@
 
 ## Welcome 👋  
 
-This project demonstrates my approach to **end-to-end data solutions**—not just analysis, but building the reliable foundations that make analysis possible. As a Senior Statistician with 17 years in official statistics, I understand that **trustworthy insights require trustworthy data infrastructure**.
+This project demonstrates my approach to **end-to-end data solutions**—not just analysis, but building the reliable foundations that make analysis possible. As a Senior Statistician and Data Analyst with 17 years in official statistics, I understand that **trustworthy insights require trustworthy data infrastructure**.
 
 Here, I showcase how to build scalable **ETL pipelines and analytical data models** that transform raw operational data into actionable business intelligence. The project mirrors real-world scenarios where clean, reliable data forms the foundation for decision-making in sales, inventory, and customer analysis.
 
